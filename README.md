@@ -1,3 +1,5 @@
+<img src="logo.png" alt="mphasy" />
+
 mphasy v1.0
 ======
 
