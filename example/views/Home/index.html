@@ -1,0 +1,21 @@
+@{
+	$TemplateName = 'main';
+}
+
+<h1>Welcome to the &quot;mphasy Jump Start App&quot;</h1>
+<p>This is the main view.</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>An example of data binding with data from the view&dash;model:</p>
+<div class="hero-unit">
+	<p>
+		<h4>Details of the person:</h4>
+		Name: <?php echo $this->ViewModel->Person->Name; ?><br />
+		Age: <?php echo $this->ViewModel->Person->Age; ?>
+	</p>
+</div>
+
+<p>For more info:</p>
+<a class="btn btn-primary" href="http://pierodetomi.github.io/mphasy">Go to mphasy website</a>
